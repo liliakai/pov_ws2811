@@ -59,12 +59,10 @@ void loop() {
     showColumn(c);
     delay(5);
   }
-  delay(num_columns*5);
   for (int c = num_columns - 1; c > -1; c--) {
     showColumn(c);
     delay(5);
   }
-  delay(num_columns*5);
 }
 
 void showColumn(int c) {
